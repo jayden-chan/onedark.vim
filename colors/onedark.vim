@@ -273,6 +273,8 @@ call s:h("cssTagName", { "fg": s:red })
 
 " Go
 call s:h("goDeclaration", { "fg": s:purple })
+call s:h("goFunctionCall", { "fg": s:cyan })
+call s:h("goVarDefs", { "fg": s:red })
 
 " HTML
 call s:h("htmlTitle", { "fg": s:white })
