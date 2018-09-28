@@ -250,6 +250,10 @@ call s:h("WildMenu", { "fg": s:black, "bg": s:blue }) " current match in 'wildme
 
 " Language-Specific Highlighting {{{
 
+" C
+call s:h("cFormat", { "fg": s:red })
+call s:h("cStructure", { "fg": s:red })
+
 " CSS
 call s:h("cssAttrComma", { "fg": s:purple })
 call s:h("cssAttributeSelector", { "fg": s:green })
